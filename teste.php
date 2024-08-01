@@ -13,8 +13,6 @@ for($l = 0; $l <= 100; $l++){
 
 
 
-
-
 // espaço para testar em casa.
 
 
