@@ -46,7 +46,7 @@ echo "<br><br><br><br>";
 $vetorDosParesInv = [];
 $vetorDosImparesInv = [];
 
-for($l = 0; $l <= 100; $l++){
+for($l = 100; $l >= 0; $l--){
     if($l % 2 == 0){ // para os paras usar 0 ou 1 para os impares! 
          $vetorDosParesInv[]=$l; // armazenar a váriavel dos pares.
     } else {
