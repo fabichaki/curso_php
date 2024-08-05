@@ -47,21 +47,21 @@ $vetorDosParesInv = [];
 $vetorDosImparesInv = [];
 
 for($l = 100; $l >= 0; $l--){
-    if($l % 2 == 0){ // para os paras usar 0 ou 1 para os impares! 
-         $vetorDosParesInv[]=$l; // armazenar a váriavel dos pares.
+    if($l % 2 == 0){
+         $vetorDosParesInv[]=$l;
     } else {
-         $vetorDosImparesInv[]=$l; // armazenar a váriavel dos impares.
+         $vetorDosImparesInv[]=$l;
     }
 }
 echo "pares ao contrário:<br>";
-for($l = 0; $l <= count($vetorDosParesInv); $l++){ //"count" usado para "CONTAR" a quantiedade dos elementos em uma matriz. 
+for($l = 0; $l <= count($vetorDosParesInv); $l++){
     echo $vetorDosParesInv[$l] . ", ";
 }
 
 echo "<br><br>";
 
 echo "impares ao contrário:<br>";
-for($l = 0; $l <= count($vetorDosImparesInv); $l++){ // "count" usado para "CONTAR" a quantiedade dos elementos em uma matriz .
+for($l = 0; $l <= count($vetorDosImparesInv); $l++){
     echo $vetorDosImparesInv[$l] . ", ";
 }
 

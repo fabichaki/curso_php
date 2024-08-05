@@ -26,10 +26,33 @@ function imprimir($tabuada){
 imprimir($tabuada);
 */
 
-function somaNaCalculadora($num1, $num2){
-    $num1 += 1;
-    $num2 += 2;
+function calculadora($valor1, $operação, $valor2){
+    $resultado = 0;
+
+    if ($operação == '+'){
+        $resultado = $valor1 + $valor2;
+    }
+    if ($operação == '-'){
+        $resultado = $valor1 - $valor2;
+    }
+    if ($operação == '*'){
+        $resultado = $valor1 * $valor2;
+    }
+    if ($operação == '/'){
+        $resultado = $valor1 / $valor2;
+    }
+
+return $resultado;
 
 }
 
-somaNaCalculadora($num1, $num2);
+$valor1 = 1;
+$operação = '+';
+$valor2 = 2;
+
+$resultado = calculadora($valor1, $operação, $valor2);
+
+echo "O resultado de; $valor1 $operação $valor2 = $resultado";
+
+// Essa é a "function" para fazer uma calculadora nada complicado, mas exige uma atençãozainha
+
