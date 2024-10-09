@@ -15,4 +15,24 @@ class UsuarioModels {
         'data_criacao',
         'data_atualizacao',
     ];
+
+    public function create(){
+
+    }
+
+    public function read($id){
+        
+    }
+
+    public function readAll(){
+        
+    }
+
+    public function update($id){
+        
+    }
+
+    public function delete($id){
+        
+    }
 }
