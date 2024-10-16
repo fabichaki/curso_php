@@ -1,7 +1,17 @@
-# curso_php
-aulas de php - infoserve \¨/
-- primeira aula 18/06/2024
+iniciar o vs code, passo à passo:
 
-primeiro > "git pull"
-segundo > "git push"
-forçar o salvamento no github > "git merge"
+__________________________________
+1º NO TERMINAL:
+cd /var/www/html/
+
+git config --global user.name ""
+git config --global user.email "@"
+git clone ""
+
+sudo service apache2 start
+
+__________________________________
+2º CRIAR UM "new folder"
+/var/www/html/"nome do diretório"
+
+show de bola. tudo pronto!
