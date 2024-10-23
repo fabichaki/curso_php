@@ -1,17 +1,18 @@
-<?php
+ <?php
 
 require '../database/Conexao.php';
 
-class PessoaModel {
+class EnderecoModel {
 
-    private $table = 'Pessoa';
+    private $table = 'endereco';
 
     private $fields = [
-
-        'cpf',
-        'email',
-        'nome',
-
+        'id',
+        'excluido',
+        'usuario_alteracao',
+        'data_criacao',
+        'data_atualizacao',
+        '',
     ];
 
     public function create() {
